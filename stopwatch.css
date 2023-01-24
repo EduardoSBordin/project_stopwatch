@@ -1,0 +1,119 @@
+*{
+    text-align: center;
+}
+body{
+    background: #494949;
+background: radial-gradient(circle, rgba(73,73,73,1) 0%, rgba(0,0,0,1) 100%);
+padding: 0;
+margin: auto;
+max-height: 100%;
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40pt;
+    background: rgba(255, 255, 255, 0);
+    color: rgba(255, 255, 255, 0.05);
+}
+#container{
+
+    margin: auto;
+    margin-top: 50px;
+    background-color: rgba(255, 255, 255, 0);
+    width: 500px;
+    height: 300px;
+    padding: 10px;
+}
+#stopWatch{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20pt;
+}
+button{
+
+    background: rgb(255, 255, 255);
+    color: black;
+    outline: none;
+    border: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    transition: 0.5s;
+    margin: 10px;
+    cursor: pointer;
+}
+#btnPlay:hover{
+
+    background: rgb(165, 144, 42);
+    color: white;
+    transform: scale(1.2);
+}
+#btnPause:hover{
+
+    background: rgb(42, 163, 165);
+    color: white;
+    transform: scale(1.2);
+}
+#btnStop:hover{
+
+    background: brown;
+    color: white;
+    transform: scale(1.2);
+}
+#btnStep:hover{
+
+    background: rgb(46, 165, 42);
+    color: white;
+    transform: scale(1.2);
+}
+#counterInf{
+
+    color: rgba(255, 255, 255, 0);
+    transform: scale(1);
+}
+#inf{
+    letter-spacing: 49px;
+    text-align: center;
+    margin-left: 10px;
+    color: #ffffff00;
+    margin-left: 50px;
+}
+h4{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgba(255, 255, 255, 0.242);
+    font-size: 14pt;
+    
+}
+#btns{
+    background-color: rgba(255, 255, 255, 0);
+    margin-top: -100px;
+}
+#stopStep{
+    background: rgba(128, 0, 128, 0);
+}
+#stopP{
+    color: rgb(255, 254, 246);
+    background: rgba(255, 255, 255, 0);
+    width: 200px;
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16pt;
+}
+#btnDeleteStep{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    margin-left: 70px;
+    margin-top: -38px;
+    position: absolute;
+}
+#btnDeleteStep:hover{
+
+    background-color: brown;
+    color: white;
+    transform: scale(1.2);
+}
